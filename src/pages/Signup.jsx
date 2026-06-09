@@ -9,7 +9,7 @@ function SignupForm() {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const navigate = useNavigate();
-  const baseUrl = import.meta.env.VITE_API_BASE_URL || "http://localhost:3000";
+  const baseUrl = import.meta.env.VITE_API_BASE_URL || "https://starcade-342group6-mergemakers.onrender.com/";
   console.log(baseUrl);
 
   const validateInputs = () => {
