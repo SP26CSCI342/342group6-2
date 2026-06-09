@@ -1,0 +1,73 @@
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-content {
+  flex: 1;
+}
+
+.body {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: white;
+
+  background-image: url("./astroidsBackground.jpg");
+  background-size: cover;        /* fills screen */
+  background-position: center;    /* centers image */
+  background-repeat: no-repeat;
+}
+
+.game {
+  width: 900px;
+  height: 600px;
+  background: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  position: relative;
+}
+
+.button {
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.buttonRow {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.moon {
+    position: absolute;
+    width: 250px;
+    bottom: 0px;
+    left: 20px;
+}
+
+.buttonText {
+    color: white;
+}
+
+h1 {
+    color: white;
+}

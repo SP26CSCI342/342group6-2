@@ -1,0 +1,84 @@
+.form-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.Form {
+  background: #020a4e;
+  border-radius: 12px;
+  padding: 40px 36px;
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.Form h2 {
+  color: #f3f4f6;
+  margin: 0 0 6px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.Form input {
+  background: #010736;
+  border: 1px solid #3a3a3a;
+  border-radius: 8px;
+  color: #f3f4f6;
+  font-size: 15px;
+  padding: 10px 14px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.Form input:focus {
+  border-color: white;
+}
+
+.Form input::placeholder {
+  color: #6b7280;
+}
+
+.Form button[type="submit"] {
+  background: #010736;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 4px;
+  padding: 10px;
+  transition: background 0.15s;
+}
+
+.Form button[type="submit"]:hover {
+  border: 1px solid white;
+}
+
+.Form-error {
+  color: #f87171;
+  font-size: 14px;
+  margin: 0;
+  text-align: center;
+}
+
+.Form-link {
+  color: #9ca3af;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+}
+
+.Form-link a {
+  color: white;
+  text-decoration: none;
+}
+
+.Form-link a:hover {
+  text-decoration: underline;
+}

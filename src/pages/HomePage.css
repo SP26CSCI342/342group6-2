@@ -1,0 +1,38 @@
+.game-link {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.ticker {
+    overflow: hidden;
+    background-color: #010736;
+    padding: 0px 0;
+    white-space: nowrap;
+}
+
+.ticker-track {
+    display: inline-block;
+    animation: scroll 15s linear infinite;
+}
+
+.ticker-text {
+    display: inline-block;
+    margin: 0;
+    color: #ebff3c;
+    font-size: 24px;
+    margin-right: 300px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100vw);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}

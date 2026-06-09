@@ -1,0 +1,28 @@
+.game-row {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
+
+.game-link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.white-line {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
